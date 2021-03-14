@@ -1,0 +1,2 @@
+class OctoEvent < ApplicationRecord
+end
