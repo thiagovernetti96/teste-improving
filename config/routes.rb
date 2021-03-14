@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  post "/events", to: "events#save_event"
+  get "/issues/:issue_number/events", to: "events#get_events_by_issue"
+
+
 end
